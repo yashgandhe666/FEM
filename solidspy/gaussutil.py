@@ -1,17 +1,8 @@
-# -*- coding: utf-8 -*-
+# coding=utf-8
 """
 Numeric integration routines
 ----------------------------
-Weights and coordinates for Gauss-Legendre quadrature [1]_. The
-values for triangles is presented in section 5.5 of Bathe book [2]_.
-
-References
-----------
-.. [1] Wikipedia contributors. "Gaussian quadrature." Wikipedia,
-  The Free Encyclopedia, 2 Nov.  2015. Web. 25 Dec. 2015.
-  url: https://en.wikipedia.org/wiki/Gaussian_quadrature
-.. [2] Bathe, Klaus-Jürgen. Finite element procedures. Prentice Hall,
-   Pearson Education, 2006.
+Weights and coordinates for Gauss-Legendre quadrature. The values can be found on pg. 461 of Bathe, Klaus-Jürgen.
 """
 from __future__ import absolute_import, division, print_function
 import numpy as np
